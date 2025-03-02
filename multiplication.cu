@@ -10,6 +10,8 @@ __global__ void multiplication(int* a, int* b, int* c) {
 
 __managed__ int a[256], b[256], c[256];
 
+// name of main function changed (see one.cu)
+
 int two_main() {
     for (int i = 0; i < 256; i++) {
         a[i] = i;
